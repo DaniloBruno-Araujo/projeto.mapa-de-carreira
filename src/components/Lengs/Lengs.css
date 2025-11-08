@@ -1,0 +1,27 @@
+.LengsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.LengTitle {
+  color: #fff;
+  font-family: var(--font-text);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Leng-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Lengs {
+  color: #fff;
+  font-family: var(--font-text);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+}
+

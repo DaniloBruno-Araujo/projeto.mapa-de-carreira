@@ -1,0 +1,27 @@
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip {
+  display: flex;
+  padding: 1px 10px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: #fff;
+  color: #111;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}

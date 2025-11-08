@@ -1,0 +1,11 @@
+.scroll-reveal-text {
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.word {
+  display: inline-block;
+}

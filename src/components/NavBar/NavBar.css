@@ -1,0 +1,87 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 86px;
+  height: 100vh;
+  padding: 12px 13px;
+  background: #252525;
+  position: fixed;
+  z-index: 1001;
+
+  & h3 {
+    font-family: var(--font-title);
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  & p {
+    font-family: var(--font-text);
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  & .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    color: #fff;
+  }
+
+  ListIcon {
+    cursor: pointer;
+  }
+}
+
+.menu-overlay {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 4.5%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #252525;
+}
+
+.menu-opcoes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+  margin-left: 190px;
+  margin-top: 190px;
+
+  & a {
+    color: #fff;
+    font-family: var(--font-title);
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1536px) {
+  .menu-overlay {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 5.5%;
+  }
+}
+
+.menuIcon {
+  width: 48px;
+  height: 48px;
+}
+
+.socialIcons{
+  display: flex;
+  gap: 10px;
+}

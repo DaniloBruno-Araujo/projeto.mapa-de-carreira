@@ -1,0 +1,101 @@
+.contentContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 185px;
+
+  & .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    .title {
+      font-family: var(--font-title);
+      font-size: 40px;
+      font-weight: 800;
+    }
+
+    & .introRoadmap {
+      font-family: var(--font-text);
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+}
+
+& #eu {
+  height: 574px;
+  border-radius: 100px 1000px 1000px 100px;
+}
+
+& #bgHome {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 560px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  
+  & .btn {
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1280px) {
+  .contentContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    text-align: left; 
+
+    & .content {
+    order: 3;
+    }
+
+    .title {
+     order: 2;
+    }
+
+    & .introRoadmap {
+     order: 4; 
+    }
+  }
+
+  #eu {
+    height: auto;
+    width: 70%;         
+    max-width: 450px;
+    order: 1;
+  }
+
+  #bgHome {
+    width: 1200px; 
+  }
+
+  .btns{
+    order: 5;
+  }
+}

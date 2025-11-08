@@ -1,0 +1,42 @@
+.roadmap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 77px;
+  margin-bottom: 132px;
+  align-items: flex-start;
+}
+
+.roadmap-career {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 53px;
+  width: 710px;
+}
+
+h1 {
+  font-family: var(--font-title);
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+h4 {
+  color: #fff;
+  font-family: var(--font-text);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: #fff;
+  font-family: var(--font-text);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}

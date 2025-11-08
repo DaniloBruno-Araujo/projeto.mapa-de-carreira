@@ -1,0 +1,27 @@
+.line {
+  width: 420px;
+  height: 3px;
+  background: #fff;
+}
+
+aside {
+  display: flex;
+  width: 420px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+
+  & h2 {
+    font-family: var(--font-title);
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  & p {
+    color: #fff;
+    font-family: var(--font-text);
+    font-size: 20px;
+    font-weight: 400;
+  }
+}

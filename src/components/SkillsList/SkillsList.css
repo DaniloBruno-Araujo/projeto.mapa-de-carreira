@@ -1,0 +1,61 @@
+/* O container principal com fundo escuro */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Título Fixo */
+.skills-title {
+  color: #fff;
+  font-family: var(--font-text);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Lista que contém os itens */
+.skills-list {
+  list-style: none; /* Remove os 'bullets' da lista */
+  padding: 0;
+  margin: 0;
+}
+
+/* Cada linha da lista (ex: "HTML" + ......) */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Espaço entre o nome e os pontos */
+  margin-bottom: 10px; /* Espaço entre as linhas */
+}
+
+/* Nome da habilidade (HTML, CSS...) */
+.skill-name {
+  color: #fff;
+  font-family: var(--font-text);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Container dos pontinhos */
+.dots-container {
+  display: flex; /* Alinha os pontos lado a lado */
+  gap: 8px; /* Espaço entre cada ponto */
+}
+
+/* Estilo do ponto individual */
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%; /* Transforma o quadrado em círculo */
+}
+
+/* Ponto "preenchido" */
+.dot.filled {
+  background-color: #00C8FF; /* Cor ciano/azul da imagem */
+}
+
+/* Ponto "vazio" */
+.dot.empty {
+  background-color: #3C3C3C; /* Cor cinza escuro da imagem */
+}
