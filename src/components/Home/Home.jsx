@@ -28,7 +28,7 @@ function Home() {
                   positivo e significativo.
                 </p>
             <div className="btns">
-              <a href="../public/DaniloBrunoAraujoCV.pdf" target="_blank" className="btn">Baixe o meu CV</a>
+              <a href="https://drive.google.com/file/d/1U1WIFk35VmgQ9zHAnP4qNMSJR54ZJC8T/view?usp=drive_link" target="_blank" className="btn">Baixe o meu CV</a>
             </div>
           </div>
           <img
