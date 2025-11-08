@@ -1,5 +1,7 @@
 import "./Home.css";
 import BlurText from "./BlurText";
+import Danilo from "../img/danilo.jpg"
+import bgHome from "../img/bg-home.png"
 
 function Home() {
   const handleAnimationComplete = () => {
@@ -31,13 +33,13 @@ function Home() {
           </div>
           <img
             id="eu"
-            src="../public/danilo.jpg"
+            src={Danilo}
             alt="Eu"
             title="Opa! Eu sou o Danilo."
           />
         </div>
       </div>
-      <img id="bgHome" src="../public/bg-home.png" alt="bg" />
+      <img id="bgHome" src={bgHome} alt="bg" />
     </section>
   );
 }

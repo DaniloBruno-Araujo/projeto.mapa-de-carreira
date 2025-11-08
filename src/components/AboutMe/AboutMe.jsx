@@ -1,4 +1,6 @@
 import "./AboutMe.css";
+import bulb from "../img/bulb.png"
+import bgAbout from "../img/bg-about-me.png"
 import ScrollFloat from "../ScrollFloat/ScrollFloat";
 import ScrollReveal from "../ScrollReveal/ScrollReveal";
 
@@ -7,7 +9,7 @@ function AboutMe() {
     <section className="sectionS">
       <div className="sectionS-content">
         <div className="contentContainer">
-          <img id="bulb" src="./public/bulb.png" alt="" title="Criatividade" />
+          <img id="bulb" src={bulb} alt="" title="Criatividade" />
           <div className="content">
             <ScrollFloat
               animationDuration={1}
@@ -35,7 +37,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
-      <img id="bg-About" src="../public/bg-about-me.png" alt="background" />
+      <img id="bg-About" src={bgAbout} alt="background" />
     </section>
   );
 }
