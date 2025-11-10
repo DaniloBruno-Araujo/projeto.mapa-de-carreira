@@ -64,6 +64,30 @@
   }
 }
 
+@media (max-width: 1470px) {
+  .contentContainer {
+    align-items: center;
+    gap: 50px;
+    text-align: left; 
+    padding-bottom: 30px;
+  }
+
+  #eu {
+    height: 500px;        
+    max-width: 450px;
+    object-fit: cover;
+    order: 1;
+  }
+
+  #bgHome {
+    width: 500px; 
+  }
+
+  .btns{
+    order: 5;
+  }
+}
+
 @media (max-width: 1280px) {
   .contentContainer {
     flex-direction: column;
@@ -99,3 +123,4 @@
     order: 5;
   }
 }
+

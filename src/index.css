@@ -45,3 +45,11 @@ body{
     width: 70vw;
   }
 }
+
+@media (max-width: 1470px) {
+  .sectionS-content {
+    align-items: center;
+    gap: 60px;
+    width: 70vw;
+  }
+}
